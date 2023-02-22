@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127.42" height="76.783" viewBox="0 0 127.42 76.783">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_35159" data-name="Path 35159" d="M100.712,100.216H47.872A3.431,3.431,0,0,1,44.53,96.7V46.452a8.816,8.816,0,0,1,8.2-8.07l43.808.158a8.681,8.681,0,0,1,7.513,7.671V96.7A3.431,3.431,0,0,1,100.712,100.216Z" transform="translate(-44.53 -38.382)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_38384" data-name="Group 38384" transform="translate(-44.53 -20.653)">
+    <path id="Path_35144" data-name="Path 35144" d="M44.53,69.677V46.961a8.578,8.578,0,0,1,8.579-8.579H95.475a8.583,8.583,0,0,1,8.579,8.579V69.677Z" transform="translate(0 -14.45)" fill="#56a7cc"/>
+    <g id="Group_38382" data-name="Group 38382" transform="translate(44.53 23.932)">
+      <g id="Group_38381" data-name="Group 38381" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <g id="Group_38380" data-name="Group 38380" transform="translate(-29.553 -44.394)">
+          <path id="Path_35145" data-name="Path 35145" d="M30.75,7.1-13.438-33.034l-6.628,4.882L30.23,9Z" transform="translate(29.995 55.731)" fill="#4997c5"/>
+          <path id="Path_35146" data-name="Path 35146" d="M7.589,60.289-48.717,43.4l-4.03,7.347,60.634,11.5Z" transform="translate(52.747 2.521)" fill="#4997c5"/>
+          <path id="Path_35147" data-name="Path 35147" d="M10.429,99.517l-57.873,9.518-.676,8.436,59.609-16.318Z" transform="translate(49.526 -36.551)" fill="#4997c5"/>
+          <path id="Path_35148" data-name="Path 35148" d="M32.312,100.539l-48.6,34.145,2.8,7.944,47.415-41.073Z" transform="translate(27.361 -37.262)" fill="#4997c5"/>
+          <path id="Path_35149" data-name="Path 35149" d="M74.014,101.873,43.8,154.247l5.759,5.963L75.9,102.077Z" transform="translate(-14.47 -38.191)" fill="#4997c5"/>
+          <path id="Path_35150" data-name="Path 35150" d="M129.269,101.793,123.1,162.582l7.634,2.865.321-64.3Z" transform="translate(-69.678 -37.686)" fill="#4997c5"/>
+          <path id="Path_35151" data-name="Path 35151" d="M144.107,101.323l19.033,57.813,8.08-.77L145.467,99.95Z" transform="translate(-84.302 -36.852)" fill="#4997c5"/>
+          <path id="Path_35152" data-name="Path 35152" d="M145.232,101.019l40.667,44,7.011-4.26-47-41.587Z" transform="translate(-85.086 -36.312)" fill="#4997c5"/>
+          <path id="Path_35153" data-name="Path 35153" d="M146.259,100.938l54.681,21.949,4.628-6.953L146.125,98.968Z" transform="translate(-85.707 -36.168)" fill="#4997c5"/>
+          <path id="Path_35154" data-name="Path 35154" d="M145.752,76.265,204.2,72.047l1.378-8.342L144.833,74.54Z" transform="translate(-84.808 -11.618)" fill="#4997c5"/>
+          <path id="Path_35155" data-name="Path 35155" d="M145.356,17.576l51.263-29.6-2.13-8.168L143.824,16.417Z" transform="translate(-84.105 46.788)" fill="#4997c5"/>
+          <path id="Path_35156" data-name="Path 35156" d="M145.146-25.254l34.472-49.427-5.239-6.464L143.288-25.629Z" transform="translate(-83.732 89.226)" fill="#4997c5"/>
+          <path id="Path_35157" data-name="Path 35157" d="M145.16-44.2l11.222-60-7.366-3.548L143.324-43.72Z" transform="translate(-83.757 107.745)" fill="#4997c5"/>
+          <path id="Path_35158" data-name="Path 35158" d="M97.788-35.784,83.656-95.108l-8.113.032L96.318-34.54Z" transform="translate(-36.568 98.947)" fill="#4997c5"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_35160" data-name="Path 35160" d="M104.054,141.392v22.715a8.578,8.578,0,0,1-8.579,8.579H53.109a8.583,8.583,0,0,1-8.579-8.579V141.392Z" transform="translate(0 -86.166)" fill="#1240c9"/>
+    <path id="Path_35161" data-name="Path 35161" d="M87.108,54.652,61.6,64.4l6,3.528v9.744l-1.651,4.872h4.8l-1.5-4.872V68.6l17.856,9.912,25.208-13.776Z" transform="translate(-11.884 -25.778)" fill="#fff"/>
+    <g id="Rectangle_21315" data-name="Rectangle 21315" transform="translate(63.176 51.852)" fill="#fff" stroke="#fff" stroke-linejoin="bevel" stroke-width="1">
+      <rect width="8.708" height="3.639" rx="1.82" stroke="none"/>
+      <rect x="0.5" y="0.5" width="7.708" height="2.639" rx="1.32" fill="none"/>
+    </g>
+    <g id="Rectangle_21316" data-name="Rectangle 21316" transform="translate(54.988 58.642)" fill="#fff" stroke="#fff" stroke-linejoin="bevel" stroke-width="1">
+      <rect width="20.795" height="3.639" rx="1.82" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19.795" height="2.639" rx="1.32" fill="none"/>
+    </g>
+    <g id="Rectangle_21317" data-name="Rectangle 21317" transform="translate(54.988 65.661)" fill="#fff" stroke="#fff" stroke-linejoin="bevel" stroke-width="1">
+      <rect width="25.474" height="3.639" rx="1.82" stroke="none"/>
+      <rect x="0.5" y="0.5" width="24.474" height="2.639" rx="1.32" fill="none"/>
+    </g>
+    <g id="Rectangle_21318" data-name="Rectangle 21318" transform="translate(54.988 75.019)" fill="#fff" stroke="#fff" stroke-linejoin="bevel" stroke-width="1">
+      <rect width="41.02" height="3.639" rx="1.82" stroke="none"/>
+      <rect x="0.5" y="0.5" width="40.02" height="2.639" rx="1.32" fill="none"/>
+    </g>
+    <g id="Rectangle_21319" data-name="Rectangle 21319" transform="translate(76.7 58.536)" fill="#fff" stroke="#fff" stroke-linejoin="bevel" stroke-width="1">
+      <rect width="19.106" height="3.639" rx="1.82" stroke="none"/>
+      <rect x="0.5" y="0.5" width="18.106" height="2.639" rx="1.32" fill="none"/>
+    </g>
+    <g id="Rectangle_21320" data-name="Rectangle 21320" transform="translate(94.02 79.307) rotate(-133.541)" fill="#fff" stroke="#fff" stroke-linejoin="bevel" stroke-width="1">
+      <rect width="26.238" height="3.639" rx="1.82" stroke="none"/>
+      <rect x="0.5" y="0.5" width="25.238" height="2.639" rx="1.32" fill="none"/>
+    </g>
+    <g id="Rectangle_21321" data-name="Rectangle 21321" transform="translate(63.046 69.3) rotate(-90)" fill="#fff" stroke="#fff" stroke-linejoin="bevel" stroke-width="1">
+      <rect width="17.448" height="3.639" rx="1.82" stroke="none"/>
+      <rect x="0.5" y="0.5" width="16.448" height="2.639" rx="1.32" fill="none"/>
+    </g>
+    <g id="Rectangle_21322" data-name="Rectangle 21322" transform="translate(54.988 78.658) rotate(-90)" fill="#fff" stroke="#fff" stroke-linejoin="bevel" stroke-width="1">
+      <rect width="20.015" height="3.639" rx="1.82" stroke="none"/>
+      <rect x="0.5" y="0.5" width="19.015" height="2.639" rx="1.32" fill="none"/>
+    </g>
+    <text id="Edi" transform="translate(106.95 40.653)" fill="#484848" font-size="21" font-family="TTNorms-Light, TT Norms" font-weight="300" letter-spacing="-0.08em"><tspan x="0" y="0">Edi</tspan></text>
+    <text id="Editing" transform="translate(106.95 61.485)" fill="#484848" font-size="21" font-family="TTNorms-Light, TT Norms" font-weight="300" letter-spacing="-0.08em"><tspan x="0" y="0">Editing</tspan></text>
+    <text id="Services" transform="translate(106.95 83.278)" fill="#484848" font-size="21" font-family="TTNorms-Light, TT Norms" font-weight="300" letter-spacing="-0.08em"><tspan x="0" y="0">Services</tspan></text>
+    <text id="Edi_adding_value_to_your_document" data-name="Edi, adding value to your document" transform="translate(44.582 95.436)" fill="#636363" font-size="7" font-family="TTNorms-Italic, TT Norms" font-style="italic" letter-spacing="0.06em"><tspan x="0" y="0">Edi, adding value to your document</tspan></text>
+  </g>
+</svg>
