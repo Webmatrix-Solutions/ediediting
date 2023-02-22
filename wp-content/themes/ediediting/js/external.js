@@ -1,5 +1,5 @@
     // banner slider js
-$('#banner-slider').owlCarousel({
+jQuery('#banner-slider').owlCarousel({
   loop:true,
   margin:10,
   responsiveClass:true,
@@ -31,7 +31,7 @@ $('#banner-slider').owlCarousel({
 
 
 // technology slider js
-$('#technology-slider').owlCarousel({
+jQuery('#technology-slider').owlCarousel({
     loop:true,
     margin:10,
     responsiveClass:true,
@@ -55,15 +55,15 @@ $('#technology-slider').owlCarousel({
     })
 
 
-var $box = $(".isotope-box").isotope({
+var $box = jQuery(".isotope-box").isotope({
     itemSelector: ".isotope-item"
     });
     // filter functions
     // bind filter button click
-    $(".isotope-toolbar").on("click", "button", function () {
+    jQuery(".isotope-toolbar").on("click", "button", function () {
     var filterValue = $(this).attr("data-type");
-    $(".isotope-toolbar-btn").removeClass("active");
-    $(this).addClass("active");
+    jQuery(".isotope-toolbar-btn").removeClass("active");
+    jQuery(this).addClass("active");
     if (filterValue !== "*") {
         filterValue = '[data-type="' + filterValue + '"]';
     }
@@ -73,7 +73,7 @@ var $box = $(".isotope-box").isotope({
 
 
     // testimonials slider js
-$('#testimonials-slider').owlCarousel({
+    jQuery('#testimonials-slider').owlCarousel({
     loop:true,
     margin:10,
     responsiveClass:true,
@@ -98,7 +98,7 @@ $('#testimonials-slider').owlCarousel({
 
     
 // extended family slider js
-$('#extended-family-slider').owlCarousel({
+jQuery('#extended-family-slider').owlCarousel({
     loop:true,
     margin:10,
     responsiveClass:true,
