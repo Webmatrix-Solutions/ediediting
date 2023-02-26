@@ -412,9 +412,10 @@ if(get_option('cpt-testimonials') == '1') {
 			'rewrite'            => array( 'slug' => 'testimonials' ),
 			'capability_type'    => 'post',
 			'has_archive'        => true,
+			'menu_icon'          => 'dashicons-reddit',
 			'hierarchical'       => false,
 			'menu_position'      => 20,
-			'supports'           => array( 'title', 'editor', 'author', 'thumbnail' ),
+			'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'custom-fields' ),
 			'taxonomies'         => array( 'category', 'post_tag' ),
 			'show_in_rest'       => true
 		);
