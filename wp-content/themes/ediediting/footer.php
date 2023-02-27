@@ -12,60 +12,53 @@
         <div class="row">
             <div class="col-12 col-md-6 col-lg-2 mb-3">
                 <div class="footer-inner-wrap">
-                    <h3>Quick Links</h3>
+                    <h3><?php the_field('quick_link_title', 'option'); ?></h3>
                     <div class="footer-menu">
-                        <ul>
-                            <li>
-                                <a href="#">About Us</a>
-                            </li>
-                            <li>
-                                <a href="#">Pricing</a>
-                            </li>
-                            <li>
-                                <a href="#">Our Culture</a>
-                            </li>
-                            <li>
-                                <a href="#">Careers</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact Us</a>
-                            </li>
-                            <li>
-                                <a href="#">FAQs</a>
-                            </li>
-                        </ul>
+                        <?php if (have_rows('menu_items', 'option')) : ?>
+                            <ul>
+                                <?php while (have_rows('menu_items', 'option')) : the_row();
+                                    $items = get_sub_field('items', 'option'); ?>
+                                    <li>
+                                        <a href="<?= esc_url($items['url']); ?>"><?= esc_html($items['title']); ?></a>
+                                    </li>
+                                <?php endwhile; ?>
+                            </ul>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 mb-3">
                 <div class="footer-inner-wrap">
-                    <h3>Services</h3>
+                    <h3><?php the_field('services_link_title', 'option'); ?></h3>
 
                     <div class="footer-menu">
-                        <ul>
-                            <li><a href="#">SEO Devices </a></li>
-                            <li><a href="#">SEM Services </a></li>
-                            <li><a href="#">Social Media Marketing </a></li>
-                            <li><a href="#">Graphics Designing </a></li>
-                            <li><a href="#">Digital Branding & ORM </a></li>
-                            <li><a href="#">Email Marketing </a></li>
-                            <li><a href="#">WordPress Development </a></li>
-                            <li><a href="#">Custom Website Development</a></li>
-                        </ul>
+                        <?php if (have_rows('service_items', 'option')) : ?>
+                            <ul>
+                                <?php while (have_rows('service_items', 'option')) : the_row();
+                                    $items = get_sub_field('services_items_link', 'option'); ?>
+                                    <li>
+                                        <a href="<?= esc_url($items['url']); ?>"><?= esc_html($items['title']); ?></a>
+                                    </li>
+                                <?php endwhile; ?>
+                            </ul>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-2 mb-3">
                 <div class="footer-inner-wrap">
-                    <h3>Resources</h3>
+                    <h3><?php the_field('resource_title', 'option'); ?></h3>
                     <div class="footer-menu">
-                        <ul>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">eBook</a></li>
-                            <li><a href="#">Infographics</a></li>
-
-                        </ul>
+                        <?php if (have_rows('resources_link', 'option')) : ?>
+                            <ul>
+                                <?php while (have_rows('resources_link', 'option')) : the_row();
+                                    $items = get_sub_field('resources_links', 'option'); ?>
+                                    <li>
+                                        <a href="<?= esc_url($items['url']); ?>"><?= esc_html($items['title']); ?></a>
+                                    </li>
+                                <?php endwhile; ?>
+                            </ul>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
@@ -84,33 +77,23 @@
                         </form>
                     </div>
                     <div class="footer-social-icon">
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-google"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa-brands fa-youtube"></i>
-                                </a>
-                            </li>
-                        </ul>
+
+                        <?php if (have_rows('social_icons', 'option')) : ?>
+                            <ul>
+
+                                <?php while (have_rows('social_icons', 'option')) : the_row();
+                                    $items = get_sub_field('icons', 'option');
+                                    $link = get_sub_field('link', 'option'); ?>
+                                    <li>
+                                        <a href="<?= esc_url($link['url']); ?>">
+                                            <?= $items; ?>
+                                        </a>
+                                    </li>
+                                <?php endwhile; ?>
+
+                            </ul>
+                        <?php endif; ?>
+
                     </div>
 
                 </div>
@@ -123,7 +106,7 @@
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="foot-copy">
-                        <p>@Copyright 2023. All Right Reserved</p>
+                        <p>&copy; Copyright 2023 | All Right Reserved</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">

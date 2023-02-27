@@ -15,7 +15,7 @@ $header_btn = get_field('menu_button', 'option');
         <div class="row">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="logo-wrap">
-                    <a class="navbar-brand" href="<?php get_site_url(); ?>">
+                    <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
                         <img class="img-fluid" src="<?= $logo['url']; ?>" alt="">
                     </a>
                 </div>

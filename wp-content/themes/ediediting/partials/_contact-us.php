@@ -70,24 +70,6 @@
                         <p><?= $contact_description; ?></p>
                     </div>
                     <?php echo do_shortcode('[contact-form-7 id="192" title="Contact us"]'); ?>
-                    <!-- <form>
-                        <div class="form-group mb-3">
-                            <input type="text" id="" class="form-control" placeholder="Name">
-                        </div>
-                        <div class="form-group mb-3">
-                            <input type="email" id="" class="form-control" placeholder="Email">
-                        </div>
-                        <div class="form-group mb-3">
-                            <input type="text" id="" class="form-control" placeholder="Phone">
-                        </div>
-                        <div class="form-group mb-3">
-                            <textarea class="form-control" rows="4" id="comment" placeholder="Message"></textarea>
-                        </div>
-
-                        <div class="form-group">
-                            <input class="btn btn-info" type="submit" name="submit" value="Send Message">
-                        </div>
-                    </form> -->
                 </div>
             </div>
         </div>
